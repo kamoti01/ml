@@ -1,0 +1,8 @@
+Function: main/0
+Constants: None, 'Match Not Found', 0, 1, "hello", 2, "how", 3, "are", 6, "you"
+Locals: x@0
+Globals: print, fprint, input, int, len, type, Exception, funlist, concat
+BEGIN
+    LOAD_CONST 9
+    STORE_FAST 0
+    LOAD_GLOBAL 0
