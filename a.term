@@ -1,0 +1,15 @@
+letdec(
+   bindval(idpat('x'),num(6)),
+   [
+    apply(
+id('println')
+    ,
+       caseof(
+id('x')
+       , [
+          match(numpat(1)          ,str('"hello"')          )          ,          match(numpat(2)          ,str('"how"')          )          ,          match(numpat(3)          ,str('"are"')          )          ,          match(numpat(6)          ,str('"you"')          )       ])
+
+    )
+
+   ])
+.
